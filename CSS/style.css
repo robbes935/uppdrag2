@@ -1,0 +1,146 @@
+html {
+	font-family: verdana;
+	background-color: #666;
+	overflow: scroll;
+}
+body {
+	background-color: #ccc;
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	overflow: auto;
+}
+h1 {
+	padding: 10px;
+	padding-top: 0px;
+}
+p{
+	padding: 10px;
+}
+#klt {
+	font-size: 0.8em;
+}
+a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #000;
+}
+#bu {
+	text-align: center;
+	overflow: hidden;
+}
+#namn {
+	float: right;
+	text-align: right;
+	padding-right: 15px;
+	width: 30%;
+}
+#namnr {
+	float: left;
+	padding-left: 15px;
+	text-align: left;
+	width: 30%;
+}
+nav {
+	background-color: #fff;
+}
+li {
+		list-style-type: none;
+		display: inline-block;
+		border-right: 1px solid #eee;
+		border-left: 1px solid #eee;
+		padding: 15px;
+}
+#art{
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 80%;
+	background: #fff;
+	border: 1px solid #555;
+	border-radius: 2px;
+	background: white;
+	display: inline-block;
+	position: relative;
+
+}
+#art2{
+	height: 500px;
+	margin: 0 auto;
+	width: 20%;
+	border: 1px solid #555;
+	border-radius: 2px;
+
+	display: inline-block;
+	position: relative;
+
+}
+.slide-up{
+	background: white;
+	height: 100px;
+	width: 100%;
+	text-align: justify;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+
+	-webkit-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+}
+
+#art2:hover > .slide-up {
+	height: 100%;
+}
+
+.slide-left{
+	background: white;
+	height: 200px;
+	width: 70%;
+	text-align: justify;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+
+	-webkit-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+}
+
+#art:hover > .slide-left {
+	width: 0%;
+}
+.slide-right{
+	background: white;
+	height: 200px;
+	width: 75%;
+	text-align: justify;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+
+	-webkit-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+}
+
+#art:hover > .slide-right {
+	width: 0%;
+}
+
+a{ 
+	color: black;
+}
+
+#art{background: url("../img/blubb.jpg");}
+
+#art:hover{ cursor: pointer;}
+
+#art:hover{ 
+	-webkit-box-shadow: 0 0 10px 2px #3030bb;
+	box-shadow: 0 0 10px 2px #3030bb;
+}
+
+footer {
+	display: block;
+	text-align: left;
+	padding-left: 10px;
+}
